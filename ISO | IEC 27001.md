@@ -96,4 +96,3 @@
 * Use ticketing for evidence, especially for vulnerabilities, incidents, access requests, and change approvals.
 * Use AI tools carefully to accelerate drafting policies and check alignment, but always validate outputs against the official standards and your real environment. Think of AI as an assistant, not as the auditor.
 
-If you want, paste the section title of your report and the company scenario you are using in your portfolio, for example a startup using AWS with a small engineering team, and I will tailor the scope, example risks, and example SoA decisions to match that exact scenario.
