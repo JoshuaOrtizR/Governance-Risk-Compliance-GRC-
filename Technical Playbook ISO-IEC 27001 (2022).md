@@ -50,7 +50,7 @@
 
 ---
 
-# 1. ISO/IEC 27001 (portfolio context)
+# 1. ISO/IEC 27001 ( My Portfolio Context)
 
 ISO/IEC 27001 is a requirements standard for establishing, implementing, maintaining, and continually improving an **Information Security Management System (ISMS)**.
 
