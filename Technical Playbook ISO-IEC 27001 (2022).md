@@ -56,7 +56,7 @@ ISO/IEC 27001 is a requirements standard for establishing, implementing, maintai
 
 **Key idea:** ISO 27001 is **risk-based**. You assess information security risks and select controls (often from **Annex A**) as risk treatment.
 
-### What you should be able to show in a portfolio
+### What you should be able to show in my document:
 - **Scope definition** (what is in/out of your ISMS)
 - **Risk assessment** and **risk treatment** approach (repeatable and consistent)
 - **Statement of Applicability (SoA)**: which Annex A controls you apply and why
