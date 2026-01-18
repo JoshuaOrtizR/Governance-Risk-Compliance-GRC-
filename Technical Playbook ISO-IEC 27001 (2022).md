@@ -6,7 +6,7 @@
 **Date:** 2026-01-06  
 
 > **Note:** This is **not** an official copy of ISO standards and does **not** reproduce ISO copyrighted text.  
-> This document is intended to demonstrate **practical understanding**, **implementation thinking**, and **evidence collection** for an Information Security Management System (ISMS).
+> This document is intended to demonstrate my **practical understanding**, **implementation thinking**, and **evidence collection** for an Information Security Management System (ISMS).
 
 ---
 
@@ -412,7 +412,7 @@ For each Annex A control, record whether it is applicable and your justification
 
 ---
 
-# Appendix D — DR test report (blank template)
+# Appendix D — DR test report (My template)
 
 Use this template to document evidence for **A.5.30** and **A.5.29**.
 
