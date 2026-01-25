@@ -95,4 +95,11 @@
 * Use a workspace like Notion to keep context, scope, stakeholder requirements, and the ISMS roadmap visible and easy to maintain.
 * Use ticketing for evidence, especially for vulnerabilities, incidents, access requests, and change approvals.
 * Use AI tools carefully to accelerate drafting policies and check alignment, but always validate outputs against the official standards and your real environment. Think of AI as an assistant, not as the auditor.
+---
+<div align="center">
+  
+# Joshua Ortiz  
+**Governance, Risk & Compliance Consultant**
+
+</div>
 
