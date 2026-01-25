@@ -57,7 +57,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 ## Policy Objects (Standardized Rule Targets)
 
-![Create policy object - VPN\_Gateway](![Image](https://github.com/user-attachments/assets/6e99076e-9a11-4398-b3e5-764657852dec))
+![Create policy object - VPN\_Gateway]![Image](https://github.com/user-attachments/assets/6e99076e-9a11-4398-b3e5-764657852dec)
 
 **What I did**
 * Created a **Policy Object** named `VPN_Gateway` pointing to a defined IP.
@@ -70,10 +70,6 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 **SOC 2 mapping**
 * **Security**: controlled access paths + reduced admin error.
 * **Change management**: named objects are easier to review and approve.
-
-**Evidence**
-* **Type I**: screenshot of the object definition (name + IP/FQDN/CIDR).
-* **Type II**: change log + periodic review of policy objects (ownership + justification).
 
 ---
 
