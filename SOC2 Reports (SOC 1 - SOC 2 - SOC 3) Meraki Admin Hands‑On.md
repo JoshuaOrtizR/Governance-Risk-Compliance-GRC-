@@ -57,7 +57,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 ## Policy Objects (Standardized Rule Targets)
 
-![Image]![Image](https://github.com/user-attachments/assets/d022c1a0-cf67-4502-ac8c-0107f2d0d803)
+![Image](https://github.com/user-attachments/assets/d022c1a0-cf67-4502-ac8c-0107f2d0d803)
 
 **What I did**
 * Created a **Policy Object** named `VPN_Gateway` pointing to a defined IP.
@@ -75,8 +75,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 ##  Adaptive Policy ACL (Segmentation + Least Privilege)
 
-![Add Adaptive Policy ACL](![Image](https://github.com/user-attachments/assets/6e99076e-9a11-4398-b3e5-764657852dec)
-**What I did**
+![Image](https://github.com/user-attachments/assets/8097a8d5-0c0b-4298-acfc-ab2730b487d0)**What I did**
 
 * Created an **Adaptive Policy ACL** named `VPN_Gateway`.
 * Added a description documenting intent: *only approved traffic to the VPN gateway*.
@@ -93,16 +92,11 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 * **Security**: least privilege network access.
 * **Confidentiality**: reduces unauthorized access to sensitive endpoints.
 
-**Evidence**
-
-* **Type I**: screenshot of ACL creation and rule intent.
-* **Type II**: documented rule review cadence + proof of ongoing monitoring/log review.
-
 ---
 
 ## Camera & Sensor Role Management (RBAC for Sensitive Data)
 
-![Camera and sensor role management](./assets/meraki/Camera%20and%20Roles.jpeg)
+![Image](https://github.com/user-attachments/assets/866783d0-d10f-4030-a073-c97ad07c5ac6)
 
 **What I did**
 
@@ -122,17 +116,9 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 * **Confidentiality / Privacy**: restrict sensitive data access based on role.
 * **Security**: enforce authorization boundaries.
 
-**Evidence**
-
-* **Type I**: screenshot showing role permissions and available options.
-* **Type II**: recurring access review evidence (export who has access, approvals, and removals).
-
----
-
 ## Authentication Evidence (SSO / MFA Login Attempts)
 
-![Dashboard login attempts](./assets/meraki/logs.jpeg)
-
+![Image](https://github.com/user-attachments/assets/399b0d03-4da2-4fd2-bf5f-c3b10bd8194d)
 **What I did**
 
 * Validated **login attempt logs** for:
@@ -155,17 +141,11 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 * **Security**: logical access controls + authentication monitoring.
 * **Availability**: early detection helps prevent account compromise leading to outages.
 
-**Evidence**
-
-* **Type I**: screenshot showing SSO/MFA activity records.
-* **Type II**: documented log review cadence + ticket/incident record for anomalies.
-
 ---
 
 ## Threat Protection (AMP + IDS/IPS + Optional Integrations)
 
-![Threat protection settings](./assets/meraki/Threat%20Protectiton.jpeg)
-
+![Image](https://github.com/user-attachments/assets/5815539c-4267-44d9-afab-3870f1c17f75)
 **What I did**
 
 * Enabled **Advanced Malware Protection (AMP)**.
@@ -184,16 +164,11 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 * **Security**: malware prevention + intrusion detection.
 * **Change management**: documented exceptions and approvals.
 
-**Evidence**
-
-* **Type I**: screenshot of AMP enabled + IDS ruleset selected.
-* **Type II**: event review records + exception register (what, why, who approved, when reviewed).
-
 ---
 
 ## Content Filtering (Block High-Risk Categories)
 
-![Content filtering configuration](./assets/meraki/Content%20Filtering.jpeg)
+![Image](https://github.com/user-attachments/assets/bb216e97-1cef-4b82-bfa3-4af6966209be)
 
 **What I did**
 
@@ -213,16 +188,11 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 * **Security**: preventative controls to reduce web-based threats.
 * **Confidentiality**: reduces likelihood of credential compromise and data loss.
 
-**Evidence**
-
-* **Type I**: screenshot of category and threat settings.
-* **Type II**: periodic review of exceptions and blocked event trends.
-
 ---
 
 ## Alerts & Availability Monitoring (Operational Signal + Response)
 
-![Alerts dashboard](./assets/meraki/Alerts.jpeg)
+![Image](https://github.com/user-attachments/assets/df12e7a0-017c-429d-9988-7f648d254f5f)
 
 **What I did**
 
@@ -243,14 +213,8 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 * **Availability**: monitoring + response improves uptime and resilience.
 * **Security**: segmentation issues are detectable and correctable.
 
-**Evidence**
 
-* **Type I**: screenshot showing alerts dashboard and active alerts.
-* **Type II**: ticketing/incident workflow evidence (alert → triage → fix → closure).
-
----
-
-# Control-to-Evidence Map (SOC 2 Mindset)
+## Control-to-Evidence Map (SOC 2 Mindset)
 
 | Control Area                   | Meraki Feature(s)      | Evidence I Capture                              |
 | ------------------------------ | ---------------------- | ----------------------------------------------- |
@@ -265,7 +229,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 ---
 <div align="center">
   
-# Joshua Ortiz  
+## Joshua Ortiz  
 **Governance, Risk & Compliance Consultant**
 
 </div>
