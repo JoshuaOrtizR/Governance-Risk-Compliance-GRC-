@@ -1,4 +1,4 @@
-# SOC Reports (SOC 1 / SOC 2 / SOC 3) — Quick Notes + Meraki Hands‑On
+# SOC Reports (SOC 1 / SOC 2 / SOC 3) Notes + Meraki Hands‑On Appliance
 
 ## What “SOC” means
 
