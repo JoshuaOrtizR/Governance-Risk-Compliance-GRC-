@@ -48,66 +48,15 @@ A lot of SOC work is: **control → evidence → traceability** (can you prove w
  **Note:**
 Some details (customer names, IPs, internal diagrams, event logs) may be **redacted/excluded** due to confidentiality agreements. This is meant to demonstrate 
 
-**how SOC 2 controls are applied and evidenced**, not to disclose sensitive operational data.
-
 ## Cisco Meraki Administrator (SOC 2‑aligned)
 
 # SOC 2 Notes + Cisco Meraki Lab (Evidence-Based Controls)
-
----
-
-## What SOC Means (System and Organization Controls)
-
-**SOC (System and Organization Controls)** is an assurance reporting framework (AICPA) used to evaluate whether an organization has **controls designed and operating** to protect systems and data.
-
-For cybersecurity work, SOC reports commonly align to the **Trust Services Criteria (TSC)**:
-
-* **Security** *(required for all SOC 2 reports)*
-* **Availability**
-* **Confidentiality**
-* **Processing Integrity**
-* **Privacy**
-
-SOC reports help reduce organizational exposure by proving controls exist, are implemented correctly, and (for Type II) are consistently followed.
-
----
-## SOC Categories (SOC 1 / SOC 2 / SOC 3)
-
-* **SOC 1**: Controls relevant to **financial reporting** (ICFR). Used when a vendor’s system impacts a customer’s financial statements.
-* **SOC 2**: Controls aligned to **Trust Services Criteria** (Security, Availability, Confidentiality, etc.). Common for SaaS, cloud, MSPs, and IT service providers.
-* **SOC 3**: A **public, high-level** version of SOC 2 (less detail, typically used for marketing/trust pages).
-
----
-
-## SOC 2 Report Types (Type I vs Type II)
-
-* **SOC 2 Type I (Point-in-time)**
-  Verifies controls are **designed appropriately** and implemented as of a specific date.
-
-* **SOC 2 Type II (Operating effectiveness)**
-  Verifies those controls operate **consistently over a period of time** (e.g., 3–12 months), including monitoring, reviews, and evidence retention.
-
----
-
-## Project Scope: Cisco Meraki Administrator (SOC 2‑Aligned)
 
 I’m configuring a Meraki environment with a SOC 2 mindset:
 
 * **Reduce exposure**
 * **Harden configurations**
 * **Generate audit-ready evidence** (screenshots, logs, settings exports, and documented reviews)
-
-### Screenshot location
-
-Place the screenshots in this repo path:
-
-```
-/assets/meraki/
-```
-
-These image links assume the following filenames (spaces included). GitHub renders them correctly because spaces are URL-encoded.
-
----
 
 # Meraki Evidence Walkthrough
 
@@ -329,8 +278,10 @@ These image links assume the following filenames (spaces included). GitHub rende
 
 ---
 <div align="center">
+  
 # Joshua Ortiz  
 **Governance, Risk & Compliance Consultant**
+
 </div>
 
 
