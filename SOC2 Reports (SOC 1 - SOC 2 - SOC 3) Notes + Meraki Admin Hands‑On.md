@@ -46,9 +46,12 @@ In practice, you prove controls with **evidence**. Typical items include:
 
 A lot of SOC work is: **control → evidence → traceability** (can you prove what happened, when, and who approved it?).
 
-## Hands-on: Cisco Meraki Administrator (SOC 2‑aligned)
+ **Note**
+Some details (customer names, IPs, internal diagrams, event logs) may be **redacted/excluded** due to confidentiality agreements. This is meant to demonstrate **how SOC 2 controls are applied and evidenced**, not to disclose sensitive operational data.
 
-For the technical portion, I’m configuring a Meraki environment with a SOC 2 mindset: **reduce exposure, harden configs, and generate audit-ready evidence**.
+## Cisco Meraki Administrator (SOC 2‑aligned)
+
+I’m configuring a Meraki environment with a SOC 2 mindset: **reduce exposure, harden configs, and generate audit-ready evidence**.
 
 Examples of Meraki controls that map well to SOC 2 (especially **Security / Availability / Confidentiality**):
 
@@ -77,6 +80,3 @@ Examples of Meraki controls that map well to SOC 2 (especially **Security / Avai
   * Config documentation + periodic reviews
 
 
-
- **Note**
-Some details (customer names, IPs, internal diagrams, event logs) may be **redacted or excluded ** due to confidentiality agreements. This project is meant to demonstrate **how SOC 2 controls are applied and evidenced**, not to disclose sensitive operational data.
