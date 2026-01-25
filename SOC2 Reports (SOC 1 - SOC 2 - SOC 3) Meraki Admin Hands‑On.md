@@ -76,7 +76,6 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 ##  Adaptive Policy ACL (Segmentation + Least Privilege)
 
 ![Add Adaptive Policy ACL](![Image](https://github.com/user-attachments/assets/6e99076e-9a11-4398-b3e5-764657852dec)
-
 **What I did**
 
 * Created an **Adaptive Policy ACL** named `VPN_Gateway`.
