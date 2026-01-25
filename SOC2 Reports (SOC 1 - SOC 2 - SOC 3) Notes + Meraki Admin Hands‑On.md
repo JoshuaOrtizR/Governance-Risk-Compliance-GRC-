@@ -76,7 +76,7 @@ Examples of Meraki controls that map well to SOC 2 (especially **Security / Avai
   * Firmware lifecycle management (planned upgrades + rollback plan)
   * Config documentation + periodic reviews
 
-Deliverables (portfolio-friendly):
 
-* **Note*
+
+ **Note**
 Some details (customer names, IPs, internal diagrams, event logs) may be **redacted or excluded ** due to confidentiality agreements. This project is meant to demonstrate **how SOC 2 controls are applied and evidenced**, not to disclose sensitive operational data.
