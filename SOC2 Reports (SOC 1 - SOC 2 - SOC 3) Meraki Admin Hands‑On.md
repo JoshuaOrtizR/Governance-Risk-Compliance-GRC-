@@ -44,8 +44,8 @@ In practice, you prove controls with **evidence**. Typical items include:
 
 A lot of SOC work is: **control → evidence → traceability** (can you prove what happened, when, and who approved it?).
 
- **Note:**
-Some details (customer names, IPs, internal diagrams, event logs) may be **redacted/excluded** due to confidentiality agreements. This is meant to demonstrate 
+### Note:
+**Some details (customer names, IPs, internal diagrams, event logs) may be redacted/excluded due to confidentiality agreements. This is meant to demonstrate how SOC 2 controls are applied and evidenced, not to disclose sensitive operational data.**
 
 ## Cisco Meraki (Evidence-Based Controls)
 
