@@ -22,7 +22,7 @@ For cybersecurity work, the most relevant one is **SOC 2**, which maps controls 
 
 Evaluates whether controls are **designed appropriately** and implemented as of a **specific date**.
 
-* Example: “On *MM/DD/YYYY*, MFA was enforced for admins and firewall rules were configured per standard.”
+* Example: “On MM/DD/YYYY, MFA was enforced for admins and firewall rules were configured per standard.”
 
 ### SOC 2 Type II (over a period of time)
 
