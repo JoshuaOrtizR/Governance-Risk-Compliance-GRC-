@@ -47,17 +47,13 @@ A lot of SOC work is: **control → evidence → traceability** (can you prove w
  **Note:**
 Some details (customer names, IPs, internal diagrams, event logs) may be **redacted/excluded** due to confidentiality agreements. This is meant to demonstrate 
 
-## Cisco Meraki Administrator (SOC 2‑aligned)
-
-# SOC 2 Notes + Cisco Meraki Lab (Evidence-Based Controls)
+# Cisco Meraki (Evidence-Based Controls)
 
 I’m configuring a Meraki environment with a SOC 2 mindset:
 
 * **Reduce exposure**
 * **Harden configurations**
 * **Generate audit-ready evidence** (screenshots, logs, settings exports, and documented reviews)
-
-# Meraki Evidence Walkthrough
 
 ## Policy Objects (Standardized Rule Targets)
 
