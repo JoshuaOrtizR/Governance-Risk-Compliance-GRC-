@@ -30,7 +30,7 @@ Evaluates whether controls are **designed appropriately** and implemented as of 
 
 Evaluates whether the same controls are **operating effectively** over a defined period (ex: 3–12 months).
 
-* Example: “From *MM/DD/YYYY to MM/DD/YYYY*, alerts were reviewed, access was recertified, patches were applied on schedule, and exceptions were tracked.”
+* Example: “From MM/DD/YYYY to MM/DD/YYYY, alerts were reviewed, access was recertified, patches were applied on schedule, and exceptions were tracked.”
 
 ## What a GRC / SOC 2 auditor usually validates (My Takepoints)
 
@@ -46,7 +46,7 @@ In practice, you prove controls with **evidence**. Typical items include:
 
 A lot of SOC work is: **control → evidence → traceability** (can you prove what happened, when, and who approved it?).
 
-## Hands-on lab: Cisco Meraki Administrator (SOC 2‑aligned)
+## Hands-on: Cisco Meraki Administrator (SOC 2‑aligned)
 
 For the technical portion, I’m configuring a Meraki environment with a SOC 2 mindset: **reduce exposure, harden configs, and generate audit-ready evidence**.
 
