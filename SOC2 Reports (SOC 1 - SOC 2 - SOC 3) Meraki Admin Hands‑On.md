@@ -54,8 +54,6 @@ Some details (customer names, IPs, internal diagrams, event logs) may be **redac
 
 # SOC 2 Notes + Cisco Meraki Lab (Evidence-Based Controls)
 
-> I’m learning cybersecurity and GRC. This repo section documents **how SOC 2 controls are applied and evidenced** using Cisco Meraki configuration and screenshots—**without disclosing sensitive operational data**.
-
 ---
 
 ## What SOC Means (System and Organization Controls)
