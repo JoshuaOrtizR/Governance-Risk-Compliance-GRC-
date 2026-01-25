@@ -1,4 +1,4 @@
-# SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki Hands‑On Appliance
+## SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki Hands‑On Appliance
 
 **SOC (System and Organization Controls)** refers to assurance reports issued under **AICPA** guidance that evaluate how an organization designs and operates controls. The goal is to reduce organizational exposure by proving controls are **designed well** and (depending on report type) **operate effectively over time**.
 
@@ -47,7 +47,7 @@ A lot of SOC work is: **control → evidence → traceability** (can you prove w
  **Note:**
 Some details (customer names, IPs, internal diagrams, event logs) may be **redacted/excluded** due to confidentiality agreements. This is meant to demonstrate 
 
-# Cisco Meraki (Evidence-Based Controls)
+## Cisco Meraki (Evidence-Based Controls)
 
 I’m configuring a Meraki environment with a SOC 2 mindset:
 
@@ -100,7 +100,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 **What I did**
 
-* Reviewed/configured **role-based access** for camera footage access levels (examples shown):
+* Reviewed/configured **role-based access** for camera footage access levels:
 
   * View + export footage
   * View footage
@@ -125,7 +125,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
   * Authentication type (e.g., **SAML** / SSO)
   * **Two-Factor Auth** successes and failures
-  * Source metadata (IP/geo) — redacted in public screenshots
+  * Source metadata (IP/geo) 
 
 **Technical value**
 
@@ -149,7 +149,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 **What I did**
 
 * Enabled **Advanced Malware Protection (AMP)**.
-* Set **IDS ruleset** to a stronger security posture (example shown: `Security`).
+* Set **IDS ruleset** to a stronger security posture (`Security`).
 * Kept allow lists empty by default; exceptions require justification and approval.
 * Noted optional integrations shown in UI (Umbrella protection, XDR enablement).
 
