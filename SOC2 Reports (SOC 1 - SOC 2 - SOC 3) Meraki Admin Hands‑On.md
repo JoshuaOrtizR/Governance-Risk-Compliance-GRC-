@@ -57,7 +57,7 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 ## Policy Objects (Standardized Rule Targets)
 
-![Image](https://github.com/user-attachments/assets/6e99076e-9a11-4398-b3e5-764657852dec).
+![Image]![Image](https://github.com/user-attachments/assets/d022c1a0-cf67-4502-ac8c-0107f2d0d803)
 
 **What I did**
 * Created a **Policy Object** named `VPN_Gateway` pointing to a defined IP.
