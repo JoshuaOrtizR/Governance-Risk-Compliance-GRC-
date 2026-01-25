@@ -1,6 +1,5 @@
 # SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki Hands‑On Appliance
 
-## What “SOC” means
 **SOC (System and Organization Controls)** refers to assurance reports issued under **AICPA** guidance that evaluate how an organization designs and operates controls. The goal is to reduce organizational exposure by proving controls are **designed well** and (depending on report type) **operate effectively over time**.
 
 For cybersecurity work, the most relevant one is **SOC 2**, which maps controls to the **Trust Services Criteria (TSC)**:
@@ -11,7 +10,7 @@ For cybersecurity work, the most relevant one is **SOC 2**, which maps controls 
 * **Processing Integrity**
 * **Privacy**
 
-## SOC categories (what they’re used for)
+**SOC categories (what they’re used for)**
 
 * **SOC 1**: Controls relevant to **financial reporting (ICFR)**. Common for payroll processors, billing platforms, and vendors impacting a customer’s financial statements.
 * **SOC 2**: Controls aligned to the **Trust Services Criteria** (security/availability/confidentiality/etc.). Common for SaaS, cloud, MSPs, and tech providers.
