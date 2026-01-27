@@ -1,4 +1,4 @@
-## SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki Hands‑On Appliance
+## SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki - Entra ID Hands‑On Appliance
 
 **SOC (System and Organization Controls)** refers to assurance reports issued under **AICPA** guidance that evaluate how an organization designs and operates controls. The goal is to reduce organizational exposure by proving controls are **designed well** and (depending on report type) **operate effectively over time**.
 
@@ -45,19 +45,21 @@ In practice, you prove controls with **evidence**. Typical items include:
 A lot of SOC work is: **control → evidence → traceability** (can you prove what happened, when, and who approved it?).
 
 ### Note:
-**Some details (customer names, IPs, internal diagrams, event logs) may be redacted/excluded due to confidentiality agreements. This is meant to demonstrate how SOC 2 controls are applied and evidenced, not to disclose sensitive operational data.**
+**Some details (Client's data, IPs, internal diagrams, event logs) may be redacted/excluded due to confidentiality agreements. This is meant to demonstrate how SOC 2 controls are applied and evidenced, not to disclose sensitive operational data.**
 
-## Cisco Meraki (Evidence-Based Controls)
+## Cisco Meraki / Entra ID (Evidence-Based Controls)
 
-I’m configuring a Meraki environment with a SOC 2 mindset:
+I’m configuring a Meraki/ Entra ID environment with a SOC 2 mindset:
 
 * **Reduce exposure**
 * **Harden configurations**
-* **Generate audit-ready evidence** (screenshots, logs, settings exports, and documented reviews)
+* **Generate audit-ready evidence** (screenshots, logs, settings exports, setting up controls, and documented reviews)
 
 ## Policy Objects (Standardized Rule Targets)
 
 ![Image](https://github.com/user-attachments/assets/d022c1a0-cf67-4502-ac8c-0107f2d0d803)
+
+![Image](https://github.com/user-attachments/assets/9ca42db8-d16d-4bbc-a159-1446ad1477eb)
 
 **What I did**
 * Created a **Policy Object** named `VPN_Gateway` pointing to a defined IP.
@@ -75,8 +77,11 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 ##  Adaptive Policy ACL (Segmentation + Least Privilege)
 
-![Image](https://github.com/user-attachments/assets/8097a8d5-0c0b-4298-acfc-ab2730b487d0)**What I did**
+![Image](https://github.com/user-attachments/assets/8097a8d5-0c0b-4298-acfc-ab2730b487d0)
 
+![Image](https://github.com/user-attachments/assets/ce863ef9-b6d2-4cdf-acce-ad288950d76d)
+
+**What I did**
 * Created an **Adaptive Policy ACL** named `VPN_Gateway`.
 * Added a description documenting intent: *only approved traffic to the VPN gateway*.
 * Selected **IPv4** scope (IPv6 should be documented separately if used).
@@ -97,6 +102,8 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 ## Camera & Sensor Role Management (RBAC for Sensitive Data)
 
 ![Image](https://github.com/user-attachments/assets/866783d0-d10f-4030-a073-c97ad07c5ac6)
+
+![Image](https://github.com/user-attachments/assets/a8708cfc-13ec-407e-8cc9-9bcd165fde04)
 
 **What I did**
 
@@ -119,6 +126,9 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 ## Authentication Evidence (SSO / MFA Login Attempts)
 
 ![Image](https://github.com/user-attachments/assets/399b0d03-4da2-4fd2-bf5f-c3b10bd8194d)
+
+![Image](https://github.com/user-attachments/assets/faabdf52-91f5-470f-b671-64be761640d8)
+
 **What I did**
 
 * Validated **login attempt logs** for:
@@ -146,6 +156,9 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 ## Threat Protection (AMP + IDS/IPS + Optional Integrations)
 
 ![Image](https://github.com/user-attachments/assets/5815539c-4267-44d9-afab-3870f1c17f75)
+
+![Image](https://github.com/user-attachments/assets/08b67386-b026-4467-975e-e5723b15cdc7)
+
 **What I did**
 
 * Enabled **Advanced Malware Protection (AMP)**.
@@ -170,6 +183,8 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 
 ![Image](https://github.com/user-attachments/assets/bb216e97-1cef-4b82-bfa3-4af6966209be)
 
+![Image](https://github.com/user-attachments/assets/45478de7-0c96-4fee-970a-6031da075b88)
+
 **What I did**
 
 * Configured category blocking to reduce exposure to:
@@ -193,6 +208,8 @@ I’m configuring a Meraki environment with a SOC 2 mindset:
 ## Alerts & Availability Monitoring (Operational Signal + Response)
 
 ![Image](https://github.com/user-attachments/assets/df12e7a0-017c-429d-9988-7f648d254f5f)
+
+![Image](https://github.com/user-attachments/assets/dd698f2c-958d-4b4f-969c-4e8704a6482f)
 
 **What I did**
 
