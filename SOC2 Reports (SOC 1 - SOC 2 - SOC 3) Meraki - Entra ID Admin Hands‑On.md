@@ -1,4 +1,4 @@
-## SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki - Entra ID Hands‑On Appliance
+## SOC Reports (SOC 1 / SOC 2 / SOC 3) + Meraki - Entra ID / Hands‑On Appliance
 
 **SOC (System and Organization Controls)** refers to assurance reports issued under **AICPA** guidance that evaluate how an organization designs and operates controls. The goal is to reduce organizational exposure by proving controls are **designed well** and (depending on report type) **operate effectively over time**.
 
@@ -47,7 +47,7 @@ A lot of SOC work is: **control → evidence → traceability** (can you prove w
 ### Note:
 **Some details (Client's data, IPs, internal diagrams, event logs) may be redacted/excluded due to confidentiality agreements. This is meant to demonstrate how SOC 2 controls are applied and evidenced, not to disclose sensitive operational data.**
 
-## Cisco Meraki / Entra ID (Evidence-Based Controls)
+## Cisco Meraki / Azure Entra ID (Evidence-Based Controls)
 
 I’m configuring a Meraki/ Entra ID environment with a SOC 2 mindset:
 
